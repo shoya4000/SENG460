@@ -4,7 +4,7 @@ while true
 	do
 	echo "Enter the domain(s) to lookup: "
 
-	read domains
+	read -r domains
 
 	[[ $domains == "exit" ]] && exit 0
 
@@ -14,15 +14,15 @@ while true
 		
 		if [[ $domain =~ ^$rx\.$rx\.$rx\.$rx$ ]]; then
 			echo "whois ${domain}"
-			whois $domain | awk '/NetRange: /,/OrgTechRef: /'
+			whois "$domain" | awk '/NetRange: /,/OrgTechRef: /'
 		else
 			echo "whois ${domain}"
-			whois $domain | grep -e 'Domain Name:' -e 'Name Server:' -e 'Registrant ' -e 'Admin ' -e 'Tech '
-			printf "\ndig ${domain}\n"
-			dig $domain | awk '/ANSWER SECTION:/,/Query time: /' | sed '$d' | sed '1d'
+			whois "$domain" | grep -e 'Domain Name:' -e 'Name Server:' -e 'Registrant ' -e 'Admin ' -e 'Tech '
+			printf "\ndig %s\n", "${domain}"
+			dig "$domain" | awk '/ANSWER SECTION:/,/Query time: /' | sed '$d' | sed '1d'
 		fi
 		echo "nslookup ${domain}"
-		nslookup $domain
+		nslookup "$domain"
 		done
 
 done
