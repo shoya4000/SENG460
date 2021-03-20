@@ -1,0 +1,30 @@
+NetRange:       98.136.0.0 - 98.139.255.255
+CIDR:           98.136.0.0/14
+NetName:        A-YAHOO-US9
+NetHandle:      NET-98-136-0-0-1
+Parent:         NET98 (NET-98-0-0-0-0)
+NetType:        Direct Allocation
+OriginAS:       AS10310
+Organization:   Oath Holdings Inc. (OH-207)
+RegDate:        2007-12-07
+Updated:        2019-05-01
+Ref:            https://rdap.arin.net/registry/ip/98.136.0.0
+
+
+OrgName:        Oath Holdings Inc.
+OrgId:          OH-207
+Address:        770 BROADWAY FL 4
+City:           New York
+StateProv:      NY
+PostalCode:     10003-9558
+Country:        US
+RegDate:        2018-12-21
+Updated:        2019-05-16
+Ref:            https://rdap.arin.net/registry/entity/OH-207
+
+
+OrgTechHandle: OTC2-ARIN
+OrgTechName:   Oath Tech Contact
+OrgTechPhone:  +1-408-349-5555 
+OrgTechEmail:  rir-tech@oath.com
+OrgTechRef:    https://rdap.arin.net/registry/entity/OTC2-ARIN

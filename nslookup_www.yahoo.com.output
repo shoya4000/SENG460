@@ -1,0 +1,22 @@
+Server:		192.168.10.60
+Address:	192.168.10.60#53
+
+Non-authoritative answer:
+www.yahoo.com	canonical name = new-fp-shed.wg1.b.yahoo.com.
+Name:	new-fp-shed.wg1.b.yahoo.com
+Address: 74.6.231.20
+Name:	new-fp-shed.wg1.b.yahoo.com
+Address: 74.6.143.25
+Name:	new-fp-shed.wg1.b.yahoo.com
+Address: 74.6.231.21
+Name:	new-fp-shed.wg1.b.yahoo.com
+Address: 74.6.143.26
+Name:	new-fp-shed.wg1.b.yahoo.com
+Address: 2001:4998:44:3507::8000
+Name:	new-fp-shed.wg1.b.yahoo.com
+Address: 2001:4998:124:1507::f000
+Name:	new-fp-shed.wg1.b.yahoo.com
+Address: 2001:4998:124:1507::f001
+Name:	new-fp-shed.wg1.b.yahoo.com
+Address: 2001:4998:44:3507::8001
+

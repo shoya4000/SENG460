@@ -1,0 +1,9 @@
+Server:		192.168.10.60
+Address:	192.168.10.60#53
+
+Non-authoritative answer:
+Name:	uvic.ca
+Address: 142.104.197.120
+Name:	uvic.ca
+Address: 2607:f8f0:c10::100
+

@@ -1,0 +1,21 @@
+Server:		192.168.10.60
+Address:	192.168.10.60#53
+
+Non-authoritative answer:
+Name:	cnn.com
+Address: 151.101.65.67
+Name:	cnn.com
+Address: 151.101.193.67
+Name:	cnn.com
+Address: 151.101.1.67
+Name:	cnn.com
+Address: 151.101.129.67
+Name:	cnn.com
+Address: 2a04:4e42:600::323
+Name:	cnn.com
+Address: 2a04:4e42:400::323
+Name:	cnn.com
+Address: 2a04:4e42::323
+Name:	cnn.com
+Address: 2a04:4e42:200::323
+
