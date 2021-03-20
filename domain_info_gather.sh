@@ -14,7 +14,7 @@ do
         cleandomain="${domain/[^@]*@/}"
         #regex pattern for a valid ip
         iprx='([1-9]?[0-9]|1[0-9]{2}|2[0-4][0-9]|25[0-5])'
-        #regex pattern for a valid fqdn
+        #regex pattern for a valid FQDN
         domaincheck=$(echo "$domain" | grep -P '(?=^.{1,254}$)(^(?>(?!\d+\.)[a-zA-Z0-9_\-]{1,63}\.?)+(?:[a-zA-Z]{2,})$)')
         #if ip address, run whois and nslookup
         if [[ $domain =~ ^$iprx\.$iprx\.$iprx\.$iprx$ ]]; then
