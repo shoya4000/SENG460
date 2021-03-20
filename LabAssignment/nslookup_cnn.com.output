@@ -11,11 +11,11 @@ Address: 151.101.193.67
 Name:	cnn.com
 Address: 151.101.65.67
 Name:	cnn.com
-Address: 2a04:4e42::323
+Address: 2a04:4e42:400::323
 Name:	cnn.com
 Address: 2a04:4e42:200::323
 Name:	cnn.com
-Address: 2a04:4e42:400::323
-Name:	cnn.com
 Address: 2a04:4e42:600::323
+Name:	cnn.com
+Address: 2a04:4e42::323
 
