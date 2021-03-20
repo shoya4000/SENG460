@@ -26,7 +26,7 @@ do
         elif [[ -n "$domaincheck" ]]; then
             echo "whois ${domain}"
             whois "$cleandomain" | grep -e 'Domain Name:' -e 'Name Server:;' -e 'Registrant ' -e 'Admin ' -e 'Tech ' > "whois_${domain}.output"
-            printf "\ndig %s\n", "${domain}"
+            printf "\ndig %s\n" "${domain}"
             dig "$cleandomain" | awk '/ANSWER SECTION:/,/Query time: /' | sed '$d' | sed '1d' > "dig_${domain}.output"
             echo "nslookup ${domain}"
             nslookup "$cleandomain" > "nslookup_${domain}.output"
